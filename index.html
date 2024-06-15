@@ -3,7 +3,406 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main-styles.css" />
+    <title>Home</title>
   </head>
-  <body></body>
+  <body>
+    <section class="section header-section">
+      <div class="container">
+        <header class="header">
+          <a href="./index.html" class="header-logo"
+            ><img
+              class="header-logo-img"
+              width="122"
+              height="25"
+              src="./images/logo.png"
+              alt="logo"
+          /></a>
+          <navigation class="header-navigation-menu">
+            <ul class="header-menu-list">
+              <li class="header-menu-item">
+                <a href="./index.html" class="header-menu-link">Home</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-link">About us</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-link">Features</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-link">Pricing</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-link">FAQ</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-link">Blog</a>
+              </li>
+            </ul>
+            <a href="#" class="header-menu-contacts">Contact us</a>
+          </navigation>
+        </header>
+        <div class="building-container">
+          <div class="building-wrapper">
+            <h1 class="building-title">
+              Building stellar websites for early startups
+            </h1>
+            <p class="building-descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+            <button class="building-button" type="button">View our work</button>
+            <a href="#" class="building-vievmore-link"
+              >View Pricing
+              <svg width="24" height="12" class="building-vievmore-link-arrow">
+                <use href="./images/main/main-icons.svg#icon-long-arrow" /></svg
+            ></a>
+          </div>
+          <img
+            class="building-img"
+            width="638"
+            height="361"
+            srcset="
+              ./images/main/Illustration.png   1x,
+              /images/main/Illustration@2x.png 2x
+            "
+            alt="fon"
+          />
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="section work-section">
+        <div class="container work-container">
+          <div class="work-container-how">
+            <h2 class="work-how-title">How we work</h2>
+            <p class="work-how-descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <a href="" class="work-how-link"
+              >Get in touch with us
+              <svg width="24" height="12" class="work-vievmore-link-arrow">
+                <use href="./images/main/main-icons.svg#icon-long-arrow" /></svg
+            ></a>
+          </div>
+          <div class="work-container-strategy">
+            <ul class="work-strategy-list">
+              <li class="work-strategy-item">
+                <img
+                  width="50"
+                  height="50"
+                  srcset="
+                    ./images/main/pointer-1.png   1x,
+                    /images/main/pointer-1@2x.png 2x
+                  "
+                  alt="01"
+                  class="work-strategy-img"
+                />
+                <h3 class="work-strategy-subtitle">Strategy</h3>
+                <p class="work-strategy-descr">
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam.
+                </p>
+              </li>
+              <li class="work-strategy-item">
+                <img
+                  width="50"
+                  height="50"
+                  srcset="
+                    ./images/main/pointer-2.png   1x,
+                    /images/main/pointer-2@2x.png 2x
+                  "
+                  alt="02"
+                  class="work-strategy-img"
+                />
+                <h3 class="work-strategy-subtitle">Wireframing</h3>
+                <p class="work-strategy-descr">
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam.
+                </p>
+              </li>
+              <li class="work-strategy-item">
+                <img
+                  width="50"
+                  height="50"
+                  srcset="
+                    ./images/main/pointer-3.png   1x,
+                    /images/main/pointer-3@2x.png 2x
+                  "
+                  alt="03"
+                  class="work-strategy-img"
+                />
+                <h3 class="work-strategy-subtitle">Design</h3>
+                <p class="work-strategy-descr">
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam.
+                </p>
+              </li>
+              <li class="work-strategy-item">
+                <img
+                  width="50"
+                  height="50"
+                  srcset="
+                    ./images/main/pointer-4.png   1x,
+                    /images/main/pointer-4@2x.png 2x
+                  "
+                  alt="04"
+                  class="work-strategy-img"
+                />
+                <h3 class="work-strategy-subtitle">Development</h3>
+                <p class="work-strategy-descr">
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section section-projects">
+        <div class="container">
+          <div class="projects-title-container">
+            <h2 class="projects-title">View our projects</h2>
+            <a href="" class="projects-viewmore"
+              >View More<svg
+                width="24"
+                height="12"
+                class="projects-vievmore-toplink-arrow"
+              >
+                <use href="./images/main/main-icons.svg#icon-long-arrow" /></svg
+            ></a>
+          </div>
+          <div class="projects-submain-container">
+            <div class="projects-webflow-wrapper-text">
+              <h3 class="projects-webflow-subtitle">
+                Workhub office Webflow Webflow Design
+              </h3>
+              <p class="projects-webflow-descr">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam
+              </p>
+              <a href="" class="projects-webflow-viewmore"
+                >View project<svg
+                  width="24"
+                  height="12"
+                  class="projects-vievmore-link-arrow"
+                >
+                  <use
+                    href="./images/main/main-icons.svg#icon-long-arrow"
+                  /></svg
+              ></a>
+            </div>
+            <div class="projects-unisaas-container">
+              <div class="projects-unisaas--wrapper">
+                <h3 class="projects-unisaas-subtitle">
+                  Unisaas Website <br />
+                  Design
+                </h3>
+                <a href="" class="projects-unisaas-viewmore"
+                  >View portfolio<svg
+                    width="24"
+                    height="12"
+                    class="projects-vievmore-link-arrow"
+                  >
+                    <use
+                      href="./images/main/main-icons.svg#icon-long-arrow"
+                    /></svg
+                ></a>
+              </div>
+              <img
+                width="405"
+                height="284"
+                srcset="
+                  ./images/main/view-our-projects2.png   1x,
+                  /images/main/view-our-projects2@2x.png 2x
+                "
+                alt="woomen"
+                class="projects-webflow-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-features">
+        <div class="container">
+          <div class="features-container-title">
+            <p class="features-descr">Features</p>
+            <h2 class="features-title">
+              Design that solves problems, one product at a time
+            </h2>
+          </div>
+          <ul class="features-list">
+            <li class="features-item">
+              <svg width="32" height="28" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-team" />
+              </svg>
+              <h3 class="features-subtitle">Uses Client First</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+            <li class="features-item">
+              <svg width="32" height="32" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-ok" />
+              </svg>
+              <h3 class="features-subtitle">Two Free Revision Round</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+            <li class="features-item">
+              <svg width="35" height="35" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-pencil" />
+              </svg>
+              <h3 class="features-subtitle">Template Customization</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+            <li class="features-item">
+              <svg width="35" height="35" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-dialog" />
+              </svg>
+              <h3 class="features-subtitle">24/7 Support</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+            <li class="features-item">
+              <svg width="35" height="35" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-clock" />
+              </svg>
+              <h3 class="features-subtitle">Quick Delivery</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+            <li class="features-item">
+              <svg width="34" height="34" class="features-icons">
+                <use href="./images/main/main-icons.svg#icon-sheet" />
+              </svg>
+              <h3 class="features-subtitle">Hands-on approach</h3>
+              <p class="features-text">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-aboutUs">
+        <div class="container aboutUs-container">
+          <div class="aboutUs-wrapper-first">
+            <h3 class="aboutUs-first-title">What our clients say about us</h3>
+            <p class="aboutUs-first-descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </p>
+          </div>
+          <div class="aboutUs-wrapper-next">
+            <p class="aboutUs-next-text">
+              "The best agency we’ve worked with so far. They understand our
+              product and are able to add new features with a great focus."
+            </p>
+            <div class="aboutUs-next-box">
+              <div class="aboutUs-next-img-wrapper">
+                <img
+                  class="aboutUs-next-img"
+                  width="52"
+                  height="52"
+                  src="./images/main/Jenny-Wilson.png"
+                  alt="jenny"
+                  srcset="./images/main/Jenny-Wilson.png x1, ./images/main/Jenny-Wilson@2x.png x2"
+                />
+                <div class="aboutUs-next-img-text-box">
+                  <h3 class="aboutUs-next-img-name">Jenny Wilson</h3>
+                  <p class="aboutUs-next-img-descr">Vice President</p>
+                </div>
+              </div>
+              <div class="aboutUs-next-icons-box">
+                <div class="icons-box-left">
+                  <svg width="13" height="22" class="icons-box-left-icon">
+                    <use href="./images/main/main-icons.svg#icon-arrow-left" />
+                  </svg>
+                </div>
+                <div class="icons-box-right">
+                  <svg width="13" height="22" class="icons-box-right-icon">
+                    <use href="./images/main/main-icons.svg#icon-arrow-right" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-questions">
+        <div class="container questions-container">
+          <div class="questions-wrapper-asked">
+            <h2 class="questions-asked-title">Frequently asked questions</h2>
+            <a href="#" class="questions-asked-link"
+              >Contact us for more info</a
+            >
+          </div>
+          <div class="questions-wrapper-howmuch">
+            <ul class="questions-howmuch-list">
+              <li class="questions-howmuch-item">
+                <h3 class="questions-howmuch-subtitle">
+                  How much time does it take?
+                </h3>
+                <p class="questions-howmuch-descr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </li>
+              <li class="questions-howmuch-item">
+                <h3 class="questions-howmuch-subtitle">
+                  What is your class naming convention?
+                </h3>
+              </li>
+              <li class="questions-howmuch-item">
+                <h3 class="questions-howmuch-subtitle">
+                  How do you communicate?
+                </h3>
+              </li>
+              <li class="questions-howmuch-item">
+                <h3 class="questions-howmuch-subtitle">
+                  I have a bigger project. Can you handle it?
+                </h3>
+              </li>
+              <li class="questions-howmuch-item">
+                <h3 class="questions-howmuch-subtitle">
+                  What is your class naming convention?
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
