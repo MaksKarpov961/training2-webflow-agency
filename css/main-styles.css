@@ -78,7 +78,7 @@ body {
 }
 
 .container {
-  width: 1250px;
+  width: 1310px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -747,6 +747,13 @@ body {
 .questions-howmuch-item {
   counter-increment: item-counter;
     /* Збільшуємо лічильник для кожного елемента */
+    border-bottom: 2px solid #ececf1;
+  margin-bottom: 38px;
+}
+
+.questions-howmuch-item:last-child{
+  
+  margin-bottom: 0;
 }
 
 .questions-howmuch-subtitle::before {
@@ -776,11 +783,258 @@ body {
   line-height: 1.77;
   color: #282938;
   opacity: 0.87;
+  padding-bottom: 48px;
   margin-left: calc(30px + 24px);
     /* Вирівнюємо з h3 */
   
 }
 
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* ---------------------------.stellar-section--------------------------------------------------- */
+
+
+
+.stellar-section {
+  padding: 120px 0;
+}
+
+.stellar-container {
+  display: flex;
+}
+
+.stellar-wrapper {
+  position: relative;
+  background-image: url(../images/main/woman-writing-on-paper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 656px;
+  height: 691px;
+  padding: 96px;
+  padding-bottom: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.stellar-wrapper-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 30, 83, 0.5);
+  z-index: -1;
+}
+
+.stellar-title {
+  width: 464px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 1.37;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.stellar-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+}
+
+.stellar-wrapper-form {
+  width: 624px;
+  height: 691px;
+  background-color: #1c1e53;
+  padding: 96px;
+  padding-bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+}
+
+.stellar-form-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.stellar-form-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f4f6fc;
+  margin-bottom: 40px;
+}
+
+.stellar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  margin-bottom: 32px;
+  
+}
+
+.stellar-form-input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.stellar-form-input-box{
+
+}
+
+.stellar-form-input {
+  border: 1.50px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  width: 432px;
+  height: 64px;
+  outline: transparent;
+  padding-left: 32px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f4f6fc;
+  background-color: transparent;
+}
+
+.stellar-form-input::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f4f6fc;
+  opacity: 0.5;
+
+}
+
+.stellar-form-input-button{
+  border-radius: 41px;
+  padding: 15px 51px;
+  width: 432px; 
+  height: 64px;
+  background-color: #fcd980; 
+  cursor: pointer;
+}
+
+.stellar-form-input-button::placeholder {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.77778;
+  color: #1b1c2b;
+}
+
+.stellar-form-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #fff;
+  align-self: center;
+  transition: 250ms color linear;
+}
+
+.stellar-form-link-icon {
+  fill: #fff;
+  stroke-width: 1.50px;
+  stroke: #f4f6fc;
+  transform: translateX(8px);
+  transition: 250ms stroke linear, 250ms fill linear;
+}
+
+
+.stellar-form-link:hover{
+  color: #fcd980;
+  stroke: #fcd980;
+  fill: #fcd980;
+}
+
+.stellar-form-link:hover .stellar-form-link-icon {
+  stroke: #fcd980;
+  fill: #fcd980;
+}
+
+
+/* ----------------------ourblog--------------------------------------------------- */
+
+
+
+
+.ourblog {
+  padding-bottom: 128px;
+}
+
+.ourblog-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.33;
+  color: #282938;
+  margin-bottom: 64px;
+}
+
+.ourblog-list {
+  display: flex;
+  gap: 32px;
+}
+
+.ourblog-item {
+  width: calc((100% - 32px * 2) / 3 );
+}
+
+.ourblog-img {
+  margin-bottom: 40px;
+}
+
+.ourblog-date {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.ourblog-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.ourblog-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+
+.ourblog-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+}
+
+.ourblog-link-icon {
+  fill: #282938;
+  stroke-width: 1.50px;
+  stroke: #282938;
+  transform: translateX(8px);
+}
 
 
 /* ---------------------------------------------------------------------------------------- */
