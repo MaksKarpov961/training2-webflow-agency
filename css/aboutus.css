@@ -1,0 +1,353 @@
+/* -------- НОРМАЛІЗАТОР ---------------------------- */
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a сбрасываем до дефолтных стилей */
+a {
+  text-decoration: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* --------- ОБЩИЕ СТИЛИ --------------- */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  width: 1310px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* ------------ HEADER ---------------------------------------------------------------------- */
+
+.header {
+  background-color: #1c1e53;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.header-logo {
+  padding: 17px 0;
+}
+
+.header-logo-img {}
+
+.header-navigation-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 32px;
+
+}
+
+.header-menu-item {}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+  transition: color 250ms linear;
+
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fcd980;
+}
+
+
+
+.header-menu-contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 41px;
+  padding: 15px 51px;
+  display: inline-block;
+  height: 60px;
+  margin-left: 48px;
+  transition: color 250ms linear, border 250ms linear;
+}
+
+.header-menu-contacts:hover,
+.header-menu-contacts:focus {
+  color: #fcd980;
+  border: 2px solid #fcd980;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------FOOTER      ------------------------------------------------------------ */
+
+.footer-our-section {
+  background-color: #1c1e53;
+  padding-top: 96px;
+}
+
+
+.footer-our-container {}
+
+.footer-our-finstalk-box {
+  display: flex;
+}
+
+.footer-our-fins-wrapper {}
+
+.header-logo {}
+
+.footer-logo-img {
+  margin-bottom: 24px;
+}
+
+.footer-our-fins-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+  width: 399px;
+}
+
+.footer-our-talk-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 260px;
+}
+
+.footer-our-talk-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.33;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-our-talk-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f4f6fc;
+  opacity: 0.8;
+  margin-bottom: 26px;
+  width: 399px;
+}
+
+.footer-our-talk-list {
+  display: flex;
+  gap: 27px;
+}
+
+.footer-our-talk-item {}
+
+.footer-our-talk-link {}
+
+.footer-our-talk-icons {
+  fill: #fff;
+}
+
+.footer-our-address {
+  width: 517px;
+  height: 95px;
+  background-color: #fcd980;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 37px;
+  display: flex;
+  gap: 29px;
+}
+
+.footer-our-address-email-wrapper {}
+
+.footer-our-address-email-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #282938;
+  margin-bottom: 1px;
+  font-style: normal;
+}
+
+.footer-our-address-email-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.8;
+}
+
+.footer-our-address-tall-wrapper {}
+
+.footer-our-address-tall-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #282938;
+  font-style: normal;
+}
+
+.footer-our-address-tall-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.8;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+.footer-menu-section {}
+
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-wrapper-link {
+  padding: 32px 0;
+}
+
+.footer-menu-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  padding: 32px 0;
+}
+
+.footer-menu-list {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-menu-item {
+  padding: 32px 0;
+}
+
+/* -------------------------------------------------------------------------- */
