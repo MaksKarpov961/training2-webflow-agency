@@ -1038,3 +1038,179 @@ body {
 
 
 /* ---------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------FOOTER      ------------------------------------------------------------ */
+
+.footer-our-section {
+  background-color: #1c1e53;
+  padding-top: 96px;
+}
+
+
+.footer-our-container {
+
+}
+
+.footer-our-finstalk-box {
+  display: flex;
+}
+
+.footer-our-fins-wrapper {
+
+}
+
+.header-logo {
+  
+}
+
+.footer-logo-img {
+  margin-bottom: 24px;
+}
+
+.footer-our-fins-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+  width: 399px;
+}
+
+.footer-our-talk-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 260px;
+}
+
+.footer-our-talk-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.33;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-our-talk-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f4f6fc;
+  opacity: 0.8;
+  margin-bottom: 26px;
+  width: 399px;
+}
+
+.footer-our-talk-list {
+  display: flex;
+  gap: 27px;
+}
+
+.footer-our-talk-item {
+
+}
+
+.footer-our-talk-link {
+
+}
+
+.footer-our-talk-icons {
+  fill: #fff;
+}
+
+.footer-our-address {
+  width: 517px;
+  height: 95px;
+  background-color: #fcd980;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 37px;
+  display: flex;
+  gap: 29px;
+}
+
+.footer-our-address-email-wrapper {
+
+}
+
+.footer-our-address-email-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #282938;
+  margin-bottom: 1px;
+  font-style: normal;
+}
+
+.footer-our-address-email-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938; 
+  opacity: 0.8;
+}
+
+.footer-our-address-tall-wrapper {
+
+}
+
+.footer-our-address-tall-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #282938;
+  font-style: normal;
+}
+
+.footer-our-address-tall-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.8;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+.footer-menu-section {
+
+}
+
+.footer-menu-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-wrapper-link {
+  padding: 32px 0;
+}
+
+.footer-menu-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  padding: 32px 0;
+}
+
+.footer-menu-list {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-menu-item {
+  padding: 32px 0;
+}
