@@ -379,6 +379,169 @@ body {
 
 /* -------------------------------------------------------------------------- */
 
+
+
+/* ------------------------section-innovate----------------------------------------- */
+
+
+.section-innovate {
+  padding: 128px 0;
+  background-color: #eef4fa;
+}
+
+
+.innovate-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.innovate-wrapper:last-child{
+  margin-bottom: 0;
+}
+
+.innovate-textbox {
+}
+
+.innovate-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.innovate-title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.47;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.innovate-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.7;
+  width: 623px;
+}
+
+.innovate-share-image {
+
+}
+
+.innovate-focus-image {
+
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* ------------------------section-benefits------------------------------------------- */
+
+
+
+.section-benefits {
+  padding: 128px 0;
+}
+
+
+.benefits-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #282938;
+  width: 630px;
+  margin: 0 auto 48px auto;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 32px;
+}
+
+.benefits-item {
+  background-color: #f4f6fc;
+  width: calc((100% - 32px * 2 ) / 3);
+  padding: 50px 32px 48px 48px;
+}
+
+.benefits-icons {
+  fill: #2405f2;
+  margin-bottom: 26px;
+
+}
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #282938;
+  margin-bottom: 12px;
+
+}
+
+.benefits-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.7;
+}
+
+
+
+.benefits-logo-wrapper {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-logo-textbox {}
+
+.benefits-logo-number {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.47;
+  color: #282938;
+}
+
+.benefits-logo-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #282938;
+  opacity: 0.7;
+}
+
+.benefits-logo-list {
+  display: flex;
+  gap: 60px;
+}
+
+.benefits-logo-item {}
+
+.benefits-logo-img {}
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
 /* ---------------FOOTER      ------------------------------------------------------------ */
 
 .footer-our-section {
