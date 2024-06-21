@@ -537,9 +537,138 @@ body {
 
 /* -------------------------------------------------------------------------- */
 
+/* ------------------SECTION-TEAM------------------------------------------------- */
+
+
+.section-team {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+
+
+.team-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #282938;
+  margin-bottom: 48px;
+}
+
+.team-list {
+  display: flex;
+  gap: 32px;
+}
+
+.team-item {
+  background-color: #fff;
+  width: calc((100% - 32px * 3) / 4);
+  padding-top: 48px;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-bottom: 32px;
+}
+
+.team-overlay-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-image {
+  margin: 0 auto;
+}
 
 
 
+.team-overlay-icons-list {
+  display: flex;
+  gap: 11px;
+  position: absolute;
+  bottom: 21px;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0;
+
+  transition: opacity 250ms linear;
+
+}
+
+.team-overlay-icons-item{
+}
+
+.team-overlay-wrapper:hover .image-container::before {
+  opacity: 1;
+}
+
+
+.team-overlay-wrapper:hover .team-overlay-icons-list{
+  pointer-events:all;
+  opacity: 1;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 168px;
+  height: 168px;
+  border-radius: 100%;
+  background: linear-gradient(348deg, #3826fa 0%, #5239fa 20%, rgba(82, 57, 250, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+
+
+
+
+.team-overlay-icons {
+  fill: #fff;
+}
+
+
+
+
+
+
+
+.team-text-wrapper {
+
+}
+
+
+
+
+
+
+
+
+
+.team-name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #1d2130;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+.team-descr {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1d2130;
+  opacity: 0.7;
+}
+
+
+/* -------------------------------------------------------------------------- */
 
 
 /* ---------------FOOTER      ------------------------------------------------------------ */
